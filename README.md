@@ -4,7 +4,8 @@ facebook开源的一个词向量与文本分类工具
 # fasttext原理
 fasttext提供了一种有效且快速的方式生成词向量以及进行文档分类。
 fasttext模型输入一个词的序列，输出这个词序列属于不同类别的概率。fasttext模型架构和Word2Vec中的CBOW模型很类似。不同之处在于，fasttext预测标签，而CBOW模型预测中间词。fasttext设计的初衷就是为了作为一个文档分类器，副产品是也生成了词向量。
-![使用fasttext进行文档分类-图2](picture/使用fasttext进行文档分类-图2.png)
+![使用fasttext进行文档分类-图2]  
+(picture/使用fasttext进行文档分类-图2.png)
 
 # fasttext特性
 ## n-gram
